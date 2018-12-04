@@ -16,8 +16,6 @@ const isDev = NODE_ENV !== 'production';
 const shouldLint = !!LINT && LINT !== 'false';
 const srcDir = resolve('src');
 
-console.log(Targets);
-
 const copyPatterns = []
 	.concat(pkg.copyWebpack || [])
 	.map(
@@ -51,7 +49,7 @@ export default (env = {}) => {
 			filename: '[name].js',
 			publicPath: '/',
 			path: resolve('dist', isWechat ? 'wechat' : 'alipay'),
-		},
+        },
 		target: Targets[target],
 		module: {
 			rules: [
