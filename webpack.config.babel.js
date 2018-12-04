@@ -16,6 +16,8 @@ const isDev = NODE_ENV !== 'production';
 const shouldLint = !!LINT && LINT !== 'false';
 const srcDir = resolve('src');
 
+console.log(Targets);
+
 const copyPatterns = []
 	.concat(pkg.copyWebpack || [])
 	.map(
@@ -123,7 +125,7 @@ export default (env = {}) => {
 			min && new MinifyPlugin(),
 			new CopyPlugin(copyPatterns, { context: srcDir }),
 		].filter(Boolean),
-		devtool: isDev ? 'source-map' : false,
+		devtool: false, //isDev ? 'source-map' : false,
 		resolve: {
 			modules: [resolve(__dirname, 'src'), 'node_modules'],
 		},

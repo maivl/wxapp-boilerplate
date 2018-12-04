@@ -3,7 +3,7 @@ import { flow } from 'lodash';
 const delay = (t = 0) => new Promise((resolve) => setTimeout(resolve, t));
 
 // 获取应用实例
-const app = getApp(); //  eslint-disable-line no-undef
+const app = getApp();
 
 Page({
 	data: {
@@ -18,7 +18,6 @@ Page({
 	},
 	async onLoad() {
 		await delay();
-
 		const log = flow(() => {
 			console.log('is wechat mini program: ', __WECHAT__);
 			console.log('is alipay mini program: ', __ALIPAY__);

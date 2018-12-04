@@ -23,7 +23,7 @@
 		"test": "jest"
 	},
 	"main": "dist/wechat/app.js",
-	"author": "cap32",
+	"author": "eric.wu",
 	"license": "MIT",
 	"engines": {
 		"node": ">=4"

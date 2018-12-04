@@ -1,6 +1,8 @@
 
 {
-  "usingComponents": {
-    "user": "../../components/user/user"
-  }
+    "usingComponents": {
+        "i-card": "../../components/card/index",
+        "i-button": "../../components/button/index",
+        "i-icon": "../../components/icon/index"
+    }
 }

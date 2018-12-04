@@ -4,8 +4,11 @@
 
 <view class="container">
   <view bindtap="bindViewTap">
-    <user avatarUrl="{{userInfo.avatarUrl}}" nickName="{{userInfo.nickName}}"></user>
+    ssss
   </view>
+  <i-button bind:click="handleClick" type="primary" size="small">Primary</i-button>
+  <i-button bind:click="handleClick">默认按钮</i-button>
+  <i-icon type="collection_fill" />
   <view class="motto">
     <template is="motto" data="{{motto:motto}}" />
   </view>
