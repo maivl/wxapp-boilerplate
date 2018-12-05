@@ -1,0 +1,6 @@
+<view class="container">
+	<i-wdg-title class="my-title" >
+        <view>设置</view>
+        <image src="../../images/undraw_collaboration2_8og0.png" style="margin: 100rpx auto;" /> 
+    </i-wdg-title>
+</view>

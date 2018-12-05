@@ -1,0 +1,5 @@
+<view class="container">
+	<i-wdg-title class="my-title" >
+        <view>详情</view>
+    </i-wdg-title>
+</view>

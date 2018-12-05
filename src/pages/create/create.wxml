@@ -1,0 +1,9 @@
+<view class="container">
+	<i-wdg-title class="my-title" >
+        <view>新建</view>
+    </i-wdg-title>
+    <view>
+        <i-input value="" type="textarea" i-class="my-textarea" placeholder="请输入详细" maxlength="1000" auto-height="{{true}}" />
+    </view>
+    <i-button bind:click="goToCreate" type="primary" shape="circle" i-class="my-button">创建</i-button>
+</view>

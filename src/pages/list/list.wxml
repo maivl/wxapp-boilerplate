@@ -1,0 +1,10 @@
+<view class="container">
+	<i-wdg-title class="my-title" >
+        <view>列表</view>
+    </i-wdg-title>
+    <i-cell-group>
+        <i-cell title="11111" is-link url="/pages/detail/detail"></i-cell>
+        <i-cell title="2222" is-link url="/pages/detail/detail"></i-cell>
+        <i-cell title="3333" is-link url="/pages/detail/detail"></i-cell>
+    </i-cell-group>
+</view>

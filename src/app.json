@@ -1,12 +1,19 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Wechat",
-    "navigationBarTextStyle":"black"
-  }
+	"pages": [
+		"pages/index/index",
+		"pages/logs/logs",
+		"pages/my/my",
+		"pages/create/create",
+		"pages/list/list",
+		"pages/setting/setting",
+		"pages/about/about",
+		"pages/detail/detail"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarTitleText": "Wechat",
+		"navigationBarTextStyle": "black",
+		"backgroundColor": "#fff",
+		"navigationStyle": "custom"
+	}
 }

@@ -1,18 +1,18 @@
-<!--index.wxml-->
-<import src="../../wxml/motto/motto.wxml"/>
-<wxs src="../../wxs/powered.wxs" module="powered" />
-
 <view class="container">
-  <view bindtap="bindViewTap">
-    ssss
-  </view>
-  <i-button bind:click="handleClick" type="primary" size="small">Primary</i-button>
-  <i-button bind:click="handleClick">默认按钮</i-button>
-  <i-icon type="collection_fill" />
-  <view class="motto">
-    <template is="motto" data="{{motto:motto}}" />
-  </view>
-  <view class="powered">
-    <text>{{powered.by}}</text>
-  </view>
+    <i-wdg-title class="my-title" >
+        <view>Spy Note</view>
+    </i-wdg-title>
+    <view>
+        <image src="../../images/undraw_taking_notes_tjaf.png" style="margin: 100rpx auto;" />   
+    </view>
+    <view>
+        <i-row>
+            <i-col span="12" i-class="col-class">
+                <i-button bind:click="goToCreate" type="primary" shape="circle" i-class="my-button">创建</i-button>
+            </i-col>
+            <i-col span="12" i-class="col-class">
+                <i-button bind:click="goToMy" type="success" shape="circle">我的</i-button>
+            </i-col>
+        </i-row>
+    </view>
 </view>

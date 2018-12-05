@@ -1,0 +1,10 @@
+{
+    "usingComponents": {
+        "i-wdg-title": "../../components/wdg/title/index",
+        "i-avatar": "../../components/avatar/index",
+        "i-cell-group": "../../components/cell-group/index",
+        "i-cell": "../../components/cell/index",
+        "i-icon": "../../components/icon/index"
+    },
+	"navigationBarTitleText": "my"
+}

@@ -10,10 +10,15 @@ Page({
 		motto: 'Hello World',
 		userInfo: {},
 	},
-	// 事件处理函数
-	bindViewTap() {
+    // 事件处理函数
+    goToCreate() {
+        wx.navigateTo({
+			url: '../create/create',
+		});
+    },
+	goToMy() {
 		wx.navigateTo({
-			url: '../logs/logs',
+			url: '../my/my',
 		});
 	},
 	async onLoad() {

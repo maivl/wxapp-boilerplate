@@ -1,0 +1,6 @@
+<view class="container">
+	<i-wdg-title class="my-title" >
+        <view>关于</view>
+        <image src="../../images/undraw_chatting_2yvo.png" style="margin: 100rpx auto;" />
+    </i-wdg-title>
+</view>

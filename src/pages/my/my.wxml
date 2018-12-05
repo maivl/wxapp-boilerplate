@@ -1,0 +1,17 @@
+<view class="container">
+	<i-wdg-title class="my-title" >
+        <view>我的</view>
+    </i-wdg-title>
+    <i-avatar src="https://i.loli.net/2017/08/21/599a521472424.jpg" size="large" i-class="my-avatar"></i-avatar>
+    <i-cell-group>
+        <i-cell is-link url="/pages/list/list">
+            <i-icon type="other" size="20" color="#FD687D" />列表
+        </i-cell>
+        <i-cell is-link url="/pages/setting/setting">
+            <i-icon type="setup" size="20" color="#FD687D" />设置
+        </i-cell>
+        <i-cell is-link url="/pages/about/about">
+            <i-icon type="browse" size="20" color="#FD687D" />关于
+        </i-cell>
+    </i-cell-group>
+</view>

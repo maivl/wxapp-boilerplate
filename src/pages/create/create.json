@@ -1,0 +1,8 @@
+{
+    "usingComponents": {
+        "i-wdg-title": "../../components/wdg/title/index",
+        "i-input": "../../components/input/index",
+        "i-button": "../../components/button/index"
+    },
+	"navigationBarTitleText": "create"
+}
